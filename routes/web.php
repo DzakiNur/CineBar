@@ -21,6 +21,10 @@ Route::get ('/home', function() {
     return view ('user.home');
 });
 
+Route::get ('/', function() {
+    return view ('welcome');
+});
+
 
 //route admin
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
