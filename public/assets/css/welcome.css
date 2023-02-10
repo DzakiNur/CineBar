@@ -37,6 +37,10 @@ body {
     margin-right: 20px;
 }
 
+.ul-coi {
+    margin-left: 870px;
+}
+
 .ul-coi li {
     text-decoration: none;
     list-style: none;
@@ -44,6 +48,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     display: inline;
+    
         margin: 0px 20px;
 }
 
@@ -76,4 +81,26 @@ hr {
     font-size: 70px;
     font-weight: 700;
     color: #FFF;
+}
+
+.start {
+    margin-top: -34px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFF;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    border: solid 1px #FFF  ;
+    width: 150px;
+    padding: 5px 0px;
+}
+
+.start:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.mantapya a {
+    text-decoration: none;
 }
