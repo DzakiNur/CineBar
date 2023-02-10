@@ -158,6 +158,14 @@ hr {
     background-size: cover;
 }
 
+.news .newsatas .newskiri2 {
+    height: 100%;
+    width: 30%;
+    background-color: green;
+    background-image: url('../images/fightclub.jpg');
+    background-size: cover;
+}
+
 .judulnews {
 
     font-size: 16px;
@@ -190,4 +198,72 @@ hr {
     height: 100%;
     width: 70%;
 
+}
+
+.asik {
+    width: 87%;
+    height: 230px;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    margin-top: 80px;
+    border-radius: 100px;
+    margin-right: 900px;
+}
+
+.name-profile {
+    position: absolute;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 190px;
+    margin-top: -63px;
+}
+
+.moview {
+    position: absolute;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 190px;
+    margin-top: -35px;
+}
+
+.rate {
+    position: absolute;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 990px;
+    margin-top: -60px;
+    border-radius: 100px;
+    border: solid 1px #FFF;
+    padding: 12px;
+}
+
+.rate:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.reviewnya {
+    /* position: absolute; */
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 270px;
+    margin-top: -80px;
+    width: 700px;
+}
+
+.footer p {
+    margin-top: 70px;
+    margin-bottom: -20px;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 20px 0px;
 }

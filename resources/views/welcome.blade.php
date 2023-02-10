@@ -13,18 +13,18 @@
             <p class="cinebar">CineBar&copy;</p>
             <center>
                 <ul class="ul-coi">
-                    <li>Popular</li>
-                    <li>News</li>
-                    <li>Review</li>
-                    <p class="profile"><i class="fa-solid fa-user profile-logo"></i>Hi, {{Auth::User()->name}}</p>
+                    <li>Welcome</li>
+                    <li>Login</li>
+                    <li>Register</li>
                 </ul>
             </center>
             <hr class="hr-coi">
         </nav>
     </header>
-    <center>
+    <center class="mantapya">
         <p class="judulatas">WELCOME TO</p>
         <p class="judul">CineBar</p>
+        <a href="/register"><p class="start">START HERE</p></a>
     </center>
 
     

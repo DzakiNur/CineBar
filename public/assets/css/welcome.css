@@ -77,3 +77,25 @@ hr {
     font-weight: 700;
     color: #FFF;
 }
+
+.start {
+    margin-top: -34px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFF;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    border: solid 1px #FFF  ;
+    width: 150px;
+    padding: 5px 0px;
+}
+
+.start:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.mantapya a {
+    text-decoration: none;
+}
