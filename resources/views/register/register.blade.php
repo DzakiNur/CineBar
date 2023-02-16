@@ -23,7 +23,7 @@
                     <button type="submit" class="submit-button">Register</button><br>
                     <hr>
                 </form>
-                <p class="dont">Already have an account? <a href="{{route('login')}}" class="register">Register</a></p>
+                <p class="dont">Already have an account? <a href="{{route('login')}}" class="login">Login</a></p>
             </center>
         </div>
         <div class="con-kiri">

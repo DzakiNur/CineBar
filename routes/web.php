@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\FilmController;
+use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +19,6 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get ('/home', function() {
-    return view ('user.home');
-});
 
 Route::get ('/', function() {
     return view ('welcome');
@@ -28,6 +27,9 @@ Route::get ('/', function() {
 
 //route admin
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+
+//route user
+Route::get('/home', [UserController::class, 'home'])->name('home');
 
 //route users
 Route::get('/users', [AdminController::class, 'users'])->name('users');
@@ -42,6 +44,11 @@ Route::post('/storeFilm', [FilmController::class, 'storeFilm'])->name('storeFilm
 Route::get('/editFilm/{id}', [FilmController::class, 'editFilm'])->name('editFilm');
 Route::post('/updateFilm/{id}', [FilmController::class, 'updateFilm'])->name('updateFilm');
 Route::post('/deleteFilm/{id}', [FilmController::class, 'deleteFilm'])->name('deleteFilm');
+
+//route review
+Route::get('/reviews', [ReviewController::class, 'index'])->name('reviews');
+Route::post('/postReview', [ReviewController::class, 'createReview'])->name('postReview');
+Route::post('/deleteReview/{id}', [ReviewController::class, 'deleteReview'])->name('deleteReview');
 
 //route register
 Route::get('/register', [RegisterController::class, 'register'])->name('register');

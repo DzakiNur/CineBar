@@ -91,8 +91,13 @@ class FilmController extends Controller
     public function updateFilm(Request $request, $id)
     {
         $request->validate([
-            'name' => 'required',
-            'email' => 'required',
+            'judul' => 'required',
+            'tahun' => 'required',
+            'genre' => 'required',
+            'sutradara' => 'required',
+            'pemain' => 'required',
+            'sinopsis' => 'required',
+            'cover' => 'required',
         ]);
 
         $film = Film::where('id', $id)->first();

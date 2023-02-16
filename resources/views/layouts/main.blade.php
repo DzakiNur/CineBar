@@ -29,6 +29,7 @@
                     <a href="{{route('dashboard')}}" @if(request()->route()->uri == 'dashboard')class="active" @endif><i class="bi bi-house-door"></i>Dashboard</a>
                     <a href="{{route('users')}}" @if(request()->route()->uri == 'users')class="active" @endif><i class="bi bi-person"></i>Users</a>
                     <a href="{{route('films')}}" @if(request()->route()->uri == 'films')class="active" @endif><i class="bi bi-film"></i>Films</a>
+                    <a href="{{route('reviews')}}" @if(request()->route()->uri == 'reviews')class="active" @endif><i class="bi bi-chat-square-text"></i>Reviews</a>
                     <a href="{{route('logout')}}" method="post"><i class="bi bi-box-arrow-left"></i>Logout</a>
                 </div>
                 <div class="content col-lg-10">

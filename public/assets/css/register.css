@@ -63,6 +63,7 @@ body {
 
 
 .here-input {
+    padding: 0px 10px;
     width: 400px;
     height: 40px;
     border: solid 2px #777;

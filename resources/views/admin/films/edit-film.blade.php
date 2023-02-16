@@ -66,7 +66,7 @@ div.container {
     <label for="sinopsis">Synopsis</label>
     <textarea id="sinopsis" name="sinopsis" value="{{$film->sinopsis}}" required></textarea>
     <label for="cover">Choose file for cover book:</label><br>
-    <input type="file" id="cover" name="cover" required>
+    <input type="file" id="cover" name="cover" value="{{$film->cover}}" required>
     <input type="submit" value="Submit">
   </form>
 </div>

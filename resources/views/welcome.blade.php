@@ -13,9 +13,8 @@
             <p class="cinebar">CineBar&copy;</p>
             <center>
                 <ul class="ul-coi">
-                    <li>Welcome</li>
-                    <li>Login</li>
-                    <li>Register</li>
+                    <li><a href="{{route('login')}}">Login</a></li>
+                    <li><a href="{{route('register')}}">Register</a></li>
                 </ul>
             </center>
             <hr class="hr-coi">

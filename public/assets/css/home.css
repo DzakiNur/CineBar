@@ -2,7 +2,9 @@
 
 html {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 body {
     margin: 0;
@@ -12,6 +14,11 @@ body {
 .header-coi {
     padding-top: 10px;
     background-color: #000;
+}
+
+.ul-coi a {
+    text-decoration: none;
+    color: #FFF;
 }
 
 .cinebar {
@@ -69,6 +76,38 @@ hr {
     margin-top: 60px;
     background-image: url(../images/lighthouse.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    /* animation-direction: alternate-reverse; */
+    animation-duration: 30s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    /* animation-play-state: running;
+    animation-timing-function: ease; */
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('../images/interstellar.jpg');
+    }
+    20%{
+        background-image: url('../images/blade-runner-2049.jpg');
+    }
+    40%{
+        background-image: url('../images/lighthouse.jpg');
+    }
+    60%{
+        background-image: url('../images/eternals.jpeg');
+    }
+    80%{
+        background-image: url('../images/dune.jpg');
+    }
+    100%{
+        background-image: url('../images/creed.jpg');
+    }
 }
 
 .judul {
@@ -231,6 +270,8 @@ hr {
     margin-top: -35px;
 }
 
+
+
 .rate {
     position: absolute;
     color: #FFF;
@@ -266,4 +307,46 @@ hr {
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.04);
     padding: 20px 0px;
+}
+
+.name-movie {
+    margin-top: 50px;
+    width: 700px;
+    height: 30px;
+    background-color: #3e3e3e;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.review-movie {
+    width: 700px;
+    height: 90px;
+    background-color: #3e3e3e;
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.sub-btn {
+    margin-top: 30px;
+    height: 40px;
+    width: 730px;
+    border: solid 1px #FFF;
+    border-radius: 100px;
+    background-color: #00000000;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.sub-btn:hover {
+    background-color: #FFF;
+    color: #000;
 }

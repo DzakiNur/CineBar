@@ -16,7 +16,7 @@
                 </div>
             </center> --}}
             <img src="assets/images/interstellar.jpg" alt="">
-            <div style="position:absolute; top:25%; left:25%;"><h1>halo</h1></div>
+            {{-- <div style="position:absolute; top:25%; left:25%;"><h1>halo</h1></div> --}}
         </div>
         <div class="con-kanan">
             <center>

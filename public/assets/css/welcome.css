@@ -15,6 +15,11 @@ body {
     background-color: #000;
 }
 
+.nav-coi a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .cinebar {
     color: #fff;
     font-weight: 600;
